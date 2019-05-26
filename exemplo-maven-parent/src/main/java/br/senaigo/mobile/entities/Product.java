@@ -1,8 +1,12 @@
 package br.senaigo.mobile.entities;
 
+
+import org.springframework.hateoas.ResourceSupport;
+
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-import org.springframework.hateoas.ResourceSupport;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
@@ -10,6 +14,8 @@ import java.math.BigDecimal;
 @Entity
 @Data
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class Product extends ResourceSupport {
 
     @Id

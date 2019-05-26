@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Projeto  maven raiz
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Rodrigo
+Implementation-Vendor-Id: br.senaigo.mobile
+Build-Jdk: 1.8.0_202
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/exemplo-maven-parent
+Created-By: Maven Integration for Eclipse
+
